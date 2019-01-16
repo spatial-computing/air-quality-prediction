@@ -1,0 +1,59 @@
+{
+  "testing_method": "validation_idw",
+  "parameter_name": "pm25",
+  "air_quality_table_name": "airnow_reporting_area",
+  "air_quality_column_set": [
+    "reporting_area",
+    "date_observed",
+    "aqi"
+  ],
+  "air_quality_request_condition": "where parameter_name='PM2.5'",
+  "geo_feature_set": [
+    "landuse_a",
+    "natural",
+    "natural_a",
+    "places",
+    "places_a",
+    "pois",
+    "pois_a",
+    "railways",
+    "roads",
+    "traffic",
+    "traffic_a",
+    "transport",
+    "transport_a",
+    "water_a",
+    "waterways"
+  ],
+  "geo_feature_column_set":[
+    "id",
+    "geo_feature",
+    "feature_type",
+    "buffer_size",
+    "value"
+  ],
+  "validation_table_name": "purpleair.purpleair_los_angeles_sensor_hourly",
+  "validation_column_set": [
+    "sensor_id",
+    "timestamp",
+    "aqi"
+  ],
+  "selected_channel": "a",
+  "filter_type": "a",
+  "coordinate_table_name": "airnow_reporting_area_location",
+  "coordinate_column_set": [
+    "reporting_area",
+    "st_x(location) as longitude",
+    "st_y(location) as latitude"
+  ],
+  "val_coordinate_table_name": "purpleair.purpleair_los_angeles_sensor_location",
+  "val_coordinate_column_set": [
+    "id",
+    "sensor_id",
+    "channel",
+    "st_x(location) as longitude",
+    "st_y(location) as latitude"
+  ],
+  "geo_feature_percent": 0.005,
+  "csv_output_path": "data/result/"
+}

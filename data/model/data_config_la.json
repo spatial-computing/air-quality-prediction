@@ -1,0 +1,69 @@
+{
+  "training": {
+    "air_quality": {
+      "data_source": "purple_air",
+      "table_name": "air_quality_data.los_angeles_purple_air_pm25_hourly_outside_view",
+      "column_set": ["station_id", "date_observed", "pm25"],
+      "request_condition": "where date_observed >= '2018-01-01' and date_observed < '2019-02-01'"
+    },
+    "locations": {
+      "table_name": "air_quality_data.los_angeles_purple_air_outside_locations_view",
+      "column_set": ["thingspeak_primary_id", "lon", "lat"],
+      "request_condition": "device_location_type = 'outside'"
+    },
+    "geo_feature":{
+      "table_name_pr": "geo_features.los_angeles_purple_air_geofeature",
+      "column_set":["gid", "geo_feature", "feature_type", "buffer_size", "value"],
+      "additional_features": {
+        "longitude": {
+          "table_name": "air_quality_data.los_angeles_purple_air_outside_locations_view",
+          "column_set": ["thingspeak_primary_id", "lon"]
+        },
+        "latitude": {
+          "table_name": "air_quality_data.los_angeles_purple_air_outside_locations_view",
+          "column_set": ["thingspeak_primary_id", "lat"]
+        }
+      }
+    }
+  },
+  "testing": {
+    "air_quality": {
+      "data_source": "epa",
+      "table_name": "air_quality_data.los_angeles_epa_air_quality",
+      "column_set": ["station_id", "date_observed", "concentration"],
+      "request_condition": "date_observed >= '2018-01-01' and date_observed <= '2019-01-01'"
+    },
+    "locations": {
+      "table_name": "air_quality_data.los_angeles_epa_sensor_locations",
+      "column_set": ["station_id", "lon", "lat"],
+      "request_condition": ""
+    },
+    "additional_features": {
+      "longitude": {
+        "table_name": "air_quality_data.los_angeles_epa_sensor_locations",
+        "column_set": ["station_id", "lon"]
+      },
+      "latitude": {
+        "table_name": "air_quality_data.los_angeles_epa_sensor_locations",
+        "column_set": ["station_id", "lat"]
+      }
+    }
+  },
+  "feature_set": [
+    "landuse_a",
+    "natural",
+    "natural_a",
+    "places",
+    "places_a",
+    "pois",
+    "pois_a",
+    "railways",
+    "roads",
+    "traffic",
+    "traffic_a",
+    "transport",
+    "transport_a",
+    "water_a",
+    "waterways"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "testing_method": "validation",
+  "study_area": "utah",
+  "study_time": "180501_180701",
+  "parameter_name": "pm25",
+  "data_config": "data/model/data_config_la.json",
+  "result_path": "data/result/",
+  "n_cluster": 12,
+  "geo_feature_percent": 0.005,
+  "rf_classifier_tree_num": 1000,
+  "rf_classifier_tree_depth": 10,
+  "rf_regression_tree_num": 100,
+  "rf_regression_tree_depth": 10,
+  "csv_output_path": "data/result/",
+  "current": true,
+  "start_time": "2017-10-09",
+  "end_time": "2018-01-23",
+  "write_to_mongodb": true
+}
