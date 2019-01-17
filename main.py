@@ -1,5 +1,5 @@
 from demo import cross_validation, validating_prediction, fine_scale_prediction, interpolation
-from lib.helpers import read_json
+from lib.utils import read_json
 
 import pandas as pd
 import time

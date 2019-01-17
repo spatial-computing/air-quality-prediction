@@ -11,6 +11,7 @@ def get_context_similarity(training_air_model, training_geo_model, config):
     # NOTE: Get training air quality data and geographic data
     training_time_series = training_air_model.time_series
     training_geo_feature_vector = training_geo_model.scaled_geo_feature_vector
+    geo_feature_name = training_geo_model.geo_feature_name
 
     # NOTE: Scale the air quality data according to the mean and standard deviation
     air_scaler = StandardScaler2(
@@ -18,12 +19,13 @@ def get_context_similarity(training_air_model, training_geo_model, config):
         std=training_time_series.values[~np.isnan(training_time_series.values)].std())
     training_time_series = air_scaler.transform(training_time_series)
 
-    important_feature_list, _ = get_feature_importance(training_time_series, training_geo_model, config)
+    important_feature_list, _ = get_feature_importance(training_time_series,
+                                                       training_geo_feature_vector, geo_feature_name, config)
 
     geo_context = training_geo_feature_vector.loc[important_feature_list]
     geo_context = standard_scaler(geo_context)
 
-    stations = list(geo_context.columns)
+    stations = list(training_geo_feature_vector.columns)
 
     # NOTE: Build sensor id to index map.
     station_id_to_ind = get_index(stations)
