@@ -1,4 +1,4 @@
-from lib.libs import random_forest_regressor
+from utils import random_forest_regressor
 
 import pandas as pd
 
@@ -15,7 +15,7 @@ def get_prediction_wi_ground_truth(train_time_series, testing_time_series, time,
     loc = list(y_train.index)
 
     # If there are very few number of other stations, continue
-    if len(loc) >= int(len(train_time_series.shape[1]) * 0.8):
+    if len(loc) >= int(train_time_series.shape[1] * 0.8):
         predict_result = random_forest_regressor(x_train[loc].T, y_train, x_test.T,
                                                  rf_regression_tree_num, rf_regression_tree_depth)
         predict_result = air_scaler.inverse_transform(predict_result)

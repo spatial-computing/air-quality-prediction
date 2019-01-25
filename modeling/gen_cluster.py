@@ -1,4 +1,4 @@
-from lib.libs import *
+from utils import StandardScaler2, KMeans
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,15 +6,15 @@ import matplotlib.pyplot as plt
 
 def cluster_main(air_quality_model):
 
-    time_series = air_quality_model.time_series
+    ts = air_quality_model.time_series
 
     # NOTE: Scale the air quality data according to the mean and standard deviation
     air_scaler = StandardScaler2(
-        mean=time_series.values[~np.isnan(time_series.values)].mean(),
-        std=time_series.values[~np.isnan(time_series.values)].std())
-    training_time_series = air_scaler.transform(time_series)
-    training_time_series_dropna = training_time_series.dropna()
-    get_best_k(training_time_series_dropna)
+        mean=ts.values[~np.isnan(ts.values)].mean(),
+        std=ts.values[~np.isnan(ts.values)].std())
+    training_ts = air_scaler.transform(ts)
+    training_ts_dropna = training_ts.dropna()
+    get_best_k(training_ts_dropna)
     return
 
 

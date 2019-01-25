@@ -1,9 +1,12 @@
-from demo import cross_validation, validating_prediction, fine_scale_prediction, interpolation
-from data_preprocessing.preprocess.los_angeles_purple_air import los_angeles_ppa_preprocess
-from data_preprocessing.preprocess.los_angeles_epa import los_angeles_epa_preprocess
-from lib.utils import load_config
+from data_preprocessing import load_data
+from data_preprocessing.preprocess.utah_epa import load_utah_epa
+from utils.utils import load_config, write_csv, load_training_testing_config
+from modeling import gen_context_similarity
+from modeling import gen_cluster
+from demo import validating_prediction
 
 import pandas as pd
+import logging
 
 
 def main():
@@ -12,15 +15,14 @@ def main():
         Program settings
     """
     pd.set_option('precision', 15)
-    config = load_config('data/model/utah_model_config.json')
+    config = load_config('data/model/model_config.json')
 
     feature_set = config['feature_set']
-    training_config = config['training']
-    testing_config = config['training']
+    training_config, testing_config = load_training_testing_config(config)
 
     training_air_model, training_geo_model = None, None
     if training_config['air_quality']['data_source'] == 'purple_air':
-        training_air_model, training_geo_model = los_angeles_ppa_preprocess(feature_set, training_config)
+        training_air_model, training_geo_model = load_los_angeles_ppa_preprocess(feature_set, training_config)
     elif training_config['air_quality']['data_source'] == 'epa':
         training_air_model, training_geo_model = los_angeles_epa_preprocess(feature_set, training_config)
 

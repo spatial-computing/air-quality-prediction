@@ -1,4 +1,6 @@
-from lib.libs import random_forest_classifier, get_k_means_label
+from utils.learning_lib import random_forest_classifier, get_k_means_label
+
+import logging
 
 
 def get_feature_importance(time_series, geo_feature_vector, geo_feature_name, config):
@@ -16,11 +18,11 @@ def get_feature_importance(time_series, geo_feature_vector, geo_feature_name, co
     rf_classifier_tree_num = config['rf_classifier_tree_num']
     rf_classifier_tree_depth = config['rf_classifier_tree_depth']
     geo_feature_percent = config['geo_feature_percent']
-    n_cluster = config['n_cluster']
+    n_clusters = config['n_clusters']
 
     # NOTE: Drop NaNs for clustering
     time_series_dropna = time_series.dropna()
-    label = get_k_means_label(time_series_dropna.T, n_cluster)
+    label = get_k_means_label(time_series_dropna.T, n_clusters)
 
     # NOTE: Compute feature importance and important features
     feature_importance = random_forest_classifier(geo_feature_vector.T, label,
@@ -28,6 +30,10 @@ def get_feature_importance(time_series, geo_feature_vector, geo_feature_name, co
 
     important_feature_list, sorted_important_feature = \
         get_important_feature_name_with_percent(geo_feature_name, feature_importance, percent=geo_feature_percent)
+
+    logging.info("Here are the top {}% features:".format(geo_feature_percent * 100))
+    for feature in sorted_important_feature:
+        logging.info(feature)
 
     return important_feature_list, sorted_important_feature
 

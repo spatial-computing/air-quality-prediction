@@ -46,6 +46,15 @@ class AIRModel:
         """
         self.air_quality_df = self.air_quality_df[~self.air_quality_df['station_id'].isin(removers)]
 
+    def select_stations(self, stations):
+        """
+        Get new air quality Dataframe given certain stations
+
+        :param stations: A list of station ids
+        :return:
+        """
+        self.air_quality_df = self.air_quality_df[self.air_quality_df['station_id'].isin(stations)]
+
     def get_locations(self):
         """
         Get distinct locations of a air quality Dataframe

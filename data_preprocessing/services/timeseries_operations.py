@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def time_series_construction(df, key_col='station_id', time_col='date_observed', value_col='value'):
+def time_series_construction_archive_1(df, key_col='station_id', time_col='date_observed', value_col='value'):
     """
     Construct time series vector, indexed by distinct timestamp, columned by locations
     Using merge function to merge locations one by one
@@ -27,7 +27,7 @@ def time_series_construction(df, key_col='station_id', time_col='date_observed',
     return time_series
 
 
-def time_series_construction1(df, key_col='station_id', time_col='date_observed', value_col='value'):
+def time_series_construction(df, key_col='station_id', time_col='date_observed', value_col='value'):
     """
     An updated version from the first construction method
     Should be faster than the previous method
@@ -57,7 +57,7 @@ def time_series_construction1(df, key_col='station_id', time_col='date_observed'
     return time_series_result
 
 
-def time_series_construction2(df, key_col='station_id', time_col='date_observed', value_col='value'):
+def time_series_construction_archive_2(df, key_col='station_id', time_col='date_observed', value_col='value'):
     """
     Join operation takes too long if the column number is above 20.
     This will also takes sometime but short than join when column number is large
