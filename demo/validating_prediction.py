@@ -1,6 +1,7 @@
 from modeling.gen_feature_importance import get_feature_importance
 from modeling.gen_prediction import get_prediction_wi_ground_truth
-from utils import StandardScaler2, write_csv
+from utils.learning_lib import StandardScaler2
+from utils.other_utils import write_csv
 
 import pandas as pd
 import numpy as np

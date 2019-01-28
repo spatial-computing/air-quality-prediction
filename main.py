@@ -1,6 +1,4 @@
-from utils.data_preparing import prepare_data
-from modeling import gen_context_similarity
-from modeling import gen_cluster
+from utils.data_preparation import prepare_data
 from demo import validating_prediction
 
 import pandas as pd
@@ -13,6 +11,7 @@ def main():
         Program settings
     """
     pd.set_option('precision', 15)
+
     training_air_model, training_geo_model, testing_air_model, testing_geo_model, config = prepare_data()
 
     # gen_cluster.cluster_main(training_air_model)

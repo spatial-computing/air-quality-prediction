@@ -1,4 +1,4 @@
-from utils import StandardScaler2, KMeans
+from utils.learning_lib import StandardScaler2, KMeans
 
 import numpy as np
 import matplotlib.pyplot as plt

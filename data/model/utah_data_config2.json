@@ -1,31 +1,40 @@
 {
   "study_area": "utah",
-  "study_time": "180501_180601",
+  "study_time": "171101_180101",
   "study_content": "ppa_ppa",
   "parameter_name": "pm25",
   "n_clusters": 6,
-  "is_split": true,
   "no_training_stations": [2, 14, 27, 30, 46],
   "training": {
     "tag": "training",
     "data_source": "purple_air",
     "air_quality": {
       "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
-      "column_set": ["station_id", "date_observed::TIMESTAMP WITHOUT TIME ZONE", "value"],
-      "request_condition": "where date_observed >= '2018-05-01' and date_observed < '2018-06-01'"
+      "column_set": [
+        "station_id",
+        "date_observed::TIMESTAMP WITHOUT TIME ZONE",
+        "value"
+      ],
+      "request_condition": "where date_observed >= '2017-11-01' and date_observed < '2018-01-01'",
+      "smooth_window_size": 24
     },
     "remover": [16, 45, 74, 76],
     "geo_feature":{
       "table_name_pr": "geo_features.utah_air_quality_geofeature",
-      "column_set":["gid", "geo_feature", "feature_type", "buffer_size", "value"],
       "additional_features": {
         "longitude": {
           "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
-          "column_set": ["station_id", "lon"]
+          "column_set": [
+            "station_id",
+            "lon"
+          ]
         },
         "latitude": {
           "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
-          "column_set": ["station_id", "lat"]
+          "column_set": [
+            "station_id",
+            "lat"
+          ]
         }
       }
     }
@@ -36,20 +45,25 @@
     "air_quality": {
       "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
       "column_set": ["station_id", "date_observed::TIMESTAMP WITHOUT TIME ZONE", "value"],
-      "request_condition": "where date_observed >= '2018-05-01' and date_observed < '2018-06-01'"
+      "request_condition": "where date_observed >= '2017-11-01' and date_observed < '2018-01-01'"
     },
     "remover": [16, 74, 76],
-    "geo_feature":{
+    "geo_feature": {
       "table_name_pr": "geo_features.utah_air_quality_geofeature",
-      "column_set":["gid", "geo_feature", "feature_type", "buffer_size", "value"],
       "additional_features": {
         "longitude": {
           "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
-          "column_set": ["station_id", "lon"]
+          "column_set": [
+            "station_id",
+            "lon"
+          ]
         },
         "latitude": {
           "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
-          "column_set": ["station_id", "lat"]
+          "column_set": [
+            "station_id",
+            "lat"
+          ]
         }
       }
     }
@@ -70,5 +84,9 @@
     "transport_a",
     "water_a",
     "waterways"
-  ]
+  ],
+  "meterology": {
+
+
+  }
 }

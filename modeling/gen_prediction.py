@@ -1,4 +1,4 @@
-from utils import random_forest_regressor
+from utils.learning_lib import random_forest_regressor
 
 import pandas as pd
 

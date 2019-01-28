@@ -2,49 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b72f4f5-4e8b-4d61-9304-11bb1dccda00" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/model/la_data_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/utah_data_config2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_preprocessing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_preprocessing/data_model/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/load_weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_preparing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/learning_lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/mongo_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/other_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_preprocessing/data_model/met_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_preprocessing/services/interpolation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/data_preparation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data/utah_purplar_air_pm25" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/utah_purplar_air_pm25" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model/data_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model/data_config2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model/model_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/model/model_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model/model_config_la.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/model/utah_data_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/model/utah_data_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model/utah_model_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/result/utah_171101_180101_validation_pm25_0.005/prediction.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/result/utah_180201_180401_validation_pm25_0.005/prediction.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/result/utah_180501_180701_validation_pm25_0.005/prediction.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/model/utah_data_config2.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/model/utah_data_config2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/data_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/data_model/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_preprocessing/data_model/air_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/data_model/air_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/data_model/var_const.py" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/var_const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocess/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocess/los_angeles_epa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocess/los_angeles_purple_air.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocess/utah_epa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocess/utah_purple_air.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/data_model/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/services/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/data_model/geo_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/data_model/geo_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_preprocessing/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/services/timeseries_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/services/timeseries_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/cross_validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/fine_scale_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/fine_scale_prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/services/timeseries_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/services/timeseries_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/services/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/validating_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/validating_prediction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_la.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_la.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_utah.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_la.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/modeling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modeling/gen_cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/gen_cluster.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modeling/gen_context_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/gen_context_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modeling/gen_feature_importance.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/gen_feature_importance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modeling/gen_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/gen_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/data_preparing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/learning_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/learning_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/load_weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/data_model/location_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/other_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/other_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +42,7 @@
     <SUITE FILE_PATH="coverage/AirQualityPrediction$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1537844542507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/air_quality_prediction$py_test_in_test_embedding_py.coverage" NAME="py.test in test_embedding.py Coverage Results" MODIFIED="1548363323396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/AirQualityPrediction$Nosetests_in_test_connection_py.coverage" NAME="Nosetests in test_connection.py Coverage Results" MODIFIED="1534472250961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/air_quality_prediction$main_utah.coverage" NAME="main_utah Coverage Results" MODIFIED="1548445244666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/air_quality_prediction$main_utah.coverage" NAME="main_utah Coverage Results" MODIFIED="1548634321828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AirQualityPrediction$run_demo.coverage" NAME="run_demo Coverage Results" MODIFIED="1536184886187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/air_quality_prediction$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1542267518517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/air_quality_prediction$main0108.coverage" NAME="main0108 Coverage Results" MODIFIED="1547086319786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -69,6 +52,7 @@
     <SUITE FILE_PATH="coverage/air_quality_prediction$air_model.coverage" NAME="air_model Coverage Results" MODIFIED="1547068199007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modeling" />
     <SUITE FILE_PATH="coverage/AirQualityPrediction$idw.coverage" NAME="idw Coverage Results" MODIFIED="1536477372432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/air_quality_prediction$validating_prediction.coverage" NAME="validating_prediction Coverage Results" MODIFIED="1548279564924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/air_quality_prediction$interpolation.coverage" NAME="interpolation Coverage Results" MODIFIED="1548460185138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_preprocessing/services" />
     <SUITE FILE_PATH="coverage/AirQualityPrediction$Nosetests_in_test_file_reader_py.coverage" NAME="Nosetests in test_file_io.py Coverage Results" MODIFIED="1534660959203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/AirQualityPrediction$statistic_analysis.coverage" NAME="statistic_analysis Coverage Results" MODIFIED="1537845491600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/air_quality_prediction$constants.coverage" NAME="constants Coverage Results" MODIFIED="1540356449542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -78,101 +62,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="validating_prediction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/validating_prediction.py">
+      <file leaf-file-name="data_preparation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/data_preparation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="295">
+              <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
               <folding>
-                <element signature="e#0#66#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_loader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/data_loader.py">
+      <file leaf-file-name="interpolation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_preprocessing/services/interpolation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="266">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeling/__init__.py">
+      <file leaf-file-name="met_model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/met_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="476">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="learning_lib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/learning_lib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="similarity_computation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zzz_others/similarity_computation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_preprocessing/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_preparing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/data_preparing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="48" column="75" lean-forward="true" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,57 +121,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/get_similarity.py" />
-        <option value="$PROJECT_DIR$/zzz_others/get_cluster.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/data_model/geo_model.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/services/utils.py" />
-        <option value="$PROJECT_DIR$/utils/lib.py" />
-        <option value="$PROJECT_DIR$/zzz_others/context_similarity.py" />
-        <option value="$PROJECT_DIR$/utils/get_cluster.py" />
-        <option value="$PROJECT_DIR$/modeling/context_similarity.py" />
-        <option value="$PROJECT_DIR$/modeling/get_context_similarity.py" />
-        <option value="$PROJECT_DIR$/modeling/get_feature_important.py" />
-        <option value="$PROJECT_DIR$/demo/fine_scale_prediction.py" />
-        <option value="$PROJECT_DIR$/demo/incorporate_meteo.py" />
         <option value="$PROJECT_DIR$/demo/cross_validation.py" />
         <option value="$PROJECT_DIR$/zzz_others/similarity_computation.py" />
         <option value="$PROJECT_DIR$/utils/helpers.py" />
         <option value="$PROJECT_DIR$/main0108.py" />
         <option value="$PROJECT_DIR$/data/model/utah_model_config.json" />
         <option value="$PROJECT_DIR$/data/model/data_config.json" />
-        <option value="$PROJECT_DIR$/data_preprocessing/data_model/air_model.py" />
-        <option value="$PROJECT_DIR$/data/model/utah_data_config2.json" />
         <option value="$PROJECT_DIR$/test/load_weather.py" />
         <option value="$PROJECT_DIR$/data_preprocessing/preprocess/utah_epa.py" />
         <option value="$PROJECT_DIR$/data_preprocessing/preprocess/utah_purple_air.py" />
         <option value="$PROJECT_DIR$/test/test_embedding.py" />
-        <option value="$PROJECT_DIR$/data/model/model_config.json" />
         <option value="$PROJECT_DIR$/data_preprocessing/services/data_loading.py" />
         <option value="$PROJECT_DIR$/Achive.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/services/timeseries_operations.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/data_model/__init__.py" />
         <option value="$PROJECT_DIR$/data_preprocessing/services/data_loaders.py" />
         <option value="$PROJECT_DIR$/lib/utils.py" />
         <option value="$PROJECT_DIR$/embedding.py" />
         <option value="$PROJECT_DIR$/data/model/la_data_config.json" />
         <option value="$PROJECT_DIR$/main_la.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/utils/utils.py" />
         <option value="$PROJECT_DIR$/utils/others.py" />
         <option value="$PROJECT_DIR$/main_utah.py" />
-        <option value="$PROJECT_DIR$/data/model/utah_data_config.json" />
+        <option value="$PROJECT_DIR$/data_preprocessing/data_model/data_loader.py" />
+        <option value="$PROJECT_DIR$/utils/interpolation.py" />
+        <option value="$PROJECT_DIR$/data/model/utah_data_config2.json" />
+        <option value="$PROJECT_DIR$/utils/other_utils.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/utils/other_utils.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/services/utils.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/services/timeseries_operations.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/__init__.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/services/__init__.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/data_model/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/services/timeseries_utils.py" />
         <option value="$PROJECT_DIR$/utils/data_preparing.py" />
-        <option value="$PROJECT_DIR$/utils/learning_lib.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/modeling/gen_cluster.py" />
         <option value="$PROJECT_DIR$/modeling/gen_context_similarity.py" />
         <option value="$PROJECT_DIR$/modeling/gen_feature_importance.py" />
-        <option value="$PROJECT_DIR$/modeling/gen_cluster.py" />
+        <option value="$PROJECT_DIR$/modeling/__init__.py" />
         <option value="$PROJECT_DIR$/modeling/gen_prediction.py" />
         <option value="$PROJECT_DIR$/demo/validating_prediction.py" />
-        <option value="$PROJECT_DIR$/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/services/__init__.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/data_model/data_loader.py" />
-        <option value="$PROJECT_DIR$/modeling/__init__.py" />
-        <option value="$PROJECT_DIR$/data_preprocessing/__init__.py" />
+        <option value="$PROJECT_DIR$/data/model/model_config.json" />
+        <option value="$PROJECT_DIR$/data_preprocessing/data_model/air_model.py" />
+        <option value="$PROJECT_DIR$/data/model/utah_data_config.json" />
+        <option value="$PROJECT_DIR$/data_preprocessing/services/data_loader.py" />
+        <option value="$PROJECT_DIR$/utils/learning_lib.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/data_model/geo_model.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/data_model/location_model.py" />
+        <option value="$PROJECT_DIR$/modeling/gen_interpolation.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/services/interpolation.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing/data_model/met_model.py" />
+        <option value="$PROJECT_DIR$/utils/data_preparation.py" />
       </list>
     </option>
   </component>
@@ -265,9 +185,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-548" />
+    <option name="y" value="-1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,6 +203,17 @@
             <path>
               <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="air-quality-prediction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-quality-prediction" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="air-quality-prediction" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
@@ -313,17 +245,7 @@
             <path>
               <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="air-quality-prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="air-quality-prediction" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="air-quality-prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="air-quality-prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="zzz_others" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,7 +254,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="distance&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yijunlin/PycharmProjects/air-quality-prediction/data_preprocessing/data_model/geo_model.py&#10;distance&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -340,16 +262,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_preprocessing/services" />
+      <recent name="$PROJECT_DIR$/modeling" />
+      <recent name="$PROJECT_DIR$/data_preprocessing/utils" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/data_preprocessing/data_model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data_preprocessing" />
       <recent name="$PROJECT_DIR$/data/model" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/data_preprocessing/data_model" />
-      <recent name="$PROJECT_DIR$/Archive" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/zzz_others" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,20 +306,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AirQualityPrediction" />
+    <configuration name="interpolation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="air-quality-prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_preprocessing/services" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modeling/gen_cluster.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_preprocessing/services/interpolation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,19 +383,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.get_cluster" />
       <item itemvalue="Python.main_utah" />
       <item itemvalue="Python.validating_prediction" />
       <item itemvalue="Python tests.py.test in embedding.py" />
       <item itemvalue="Python.embedding" />
+      <item itemvalue="Python.interpolation" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main_utah" />
+        <item itemvalue="Python.interpolation" />
         <item itemvalue="Python.embedding" />
         <item itemvalue="Python tests.py.test in embedding.py" />
         <item itemvalue="Python.validating_prediction" />
-        <item itemvalue="Python.get_cluster" />
       </list>
     </recent_temporary>
   </component>
@@ -523,24 +445,24 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-548" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.2820513" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.28159204" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.108457714" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21991481" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14932486" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.44761905" />
-      <window_info anchor="right" id="SciView" order="1" sideWeight="0.8724138" visible="true" weight="0.21938232" />
+      <window_info anchor="right" id="SciView" order="1" sideWeight="0.8724138" visible="true" weight="0.055996824" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.40696517" />
+      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.4930403" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -549,7 +471,34 @@
       <window_info anchor="right" x="0" y="0" width="412" height="827" id="Documentation" order="6" show_stripe_button="false" sideWeight="0.12788019" side_tool="true" weight="0.399361" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.1960199" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.22954823" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.28159204" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.1960199" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.36820513" />
+      <window_info anchor="right" x="0" y="0" width="412" height="827" id="Documentation" order="7" show_stripe_button="false" sideWeight="0.12788019" side_tool="true" weight="0.399361" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" sideWeight="0.8724138" visible="true" weight="0.12515263" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.108457714" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -619,11 +568,6 @@
           <option name="timeStamp" value="399" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_preprocessing/data_model/air_model.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="522" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/modeling/gen_prediction.py</url>
           <line>27</line>
           <option name="timeStamp" value="529" />
@@ -635,8 +579,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="535" />
+          <line>22</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_preprocessing/services/interpolation.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/data_preparation.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="606" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -646,148 +600,78 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="537" />
+      <option name="time" value="607" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
         <watch expression="geo_feature_name.count()" language="Python" />
         <watch expression="str(int(time.time()))" language="Python" />
       </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="loc_met_df[VALUE_COLS].mul(loc_met_df[loc], axis=0)" language="Python" />
+        <watch expression="met_df.join(loc_weight)" language="Python" />
+        <watch expression="df.join(loc_weight, on=KEY_COL)" language="Python" />
+        <watch expression="pd.Series([loc] * i_loc_df.shape[0])" language="Python" />
+        <watch expression="sum_weights[loc]" language="Python" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>testing_air_model.time_series.columns</expression-string>
+        <expression-string>sum_weights[loc]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>training_air_model.time_series.columns</expression-string>
+        <expression-string>df.join(loc_weight, on=KEY_COL)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(testing_air_model.time_series.columns)</expression-string>
+        <expression-string>pd.Series([loc] * i_loc_df.shape[0])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(training_air_model.time_series.columns)</expression-string>
+        <expression-string>[loc] * i_loc_df.shape[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>geo_context.columns</expression-string>
+        <expression-string>i_loc_df.shape[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>geo_context.index</expression-string>
+        <expression-string>loc_met_df[VALUE_COLS + [TIME_COL]].groupby([TIME_COL]).sum()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>training_time_series.shape</expression-string>
+        <expression-string>loc_met_df[VALUE_COLS + TIME_COL].groupby([TIME_COL]).sum()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>training_time_series_dropna.shape</expression-string>
+        <expression-string>loc_met_df[VALUE_COLS].groupby([TIME_COL]).sum()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>training_time_series_dropna.size</expression-string>
+        <expression-string>loc_met_df.groupby([TIME_COL]).sum()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.table_name_pr</expression-string>
+        <expression-string>loc_met_df[VALUE_COLS].mul(loc_met_df[loc], axis=0)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/model/data_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/model/utah_model_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/model/config_idw.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_171101_180101_validation_ppa_epa_pm25_6_0.01/prediction.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_171101_180101_validation_ppa_ppa_pm25_6_0.01/prediction.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_180201_180401_validation_ppa_epa_pm25_6_0.01/information.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_180201_180401_validation_ppa_epa_pm25_6_0.01/prediction.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_180201_180401_validation_ppa_ppa_pm25_6_0.01/information.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/interpolation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/model/utah_data_config2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_180501_180601_validation_ppa_ppa_pm25_6_0.01/information.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/fine_scale_prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/result/utah_180501_180601_validation_ppa_ppa_pm25_6_0.01/prediction.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/model/data_config_la.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/load_weather.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/load_weather.py" />
     <entry file="file://$PROJECT_DIR$/data/model/config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -805,122 +689,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/geo_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1222">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Archive/var_const.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-865" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Achive.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/utah_epa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/air_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/timeseries_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/los_angeles_epa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/los_angeles_purple_air.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/utah_purple_air.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Achive.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/utah_epa.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/los_angeles_epa.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/los_angeles_purple_air.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/preprocess/utah_purple_air.py" />
     <entry file="file://$PROJECT_DIR$/embedding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/model/utah_data_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeling/gen_prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeling/gen_feature_importance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeling/gen_context_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeling/gen_cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,135 +723,238 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zzz_others/similarity_computation.py" />
+    <entry file="file://$PROJECT_DIR$/demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/interpolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/model/utah_data_config2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-597">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/utils/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test/idw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-808">
+          <caret line="19" lean-forward="true" selection-start-line="14" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/other_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-end-line="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_la.py">
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/utils.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/main_la.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/postgres_connection.py">
+    <entry file="file://$PROJECT_DIR$/utils/interpolation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load_weather.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/data_preparing.py">
+    <entry file="file://$PROJECT_DIR$/modeling/gen_feature_importance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="48" column="75" lean-forward="true" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/validating_prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/model/model_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modeling/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+          <caret line="10" column="14" lean-forward="true" selection-start-column="2" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/__init__.py">
+    <entry file="file://$PROJECT_DIR$/modeling/gen_cluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/__init__.py">
+    <entry file="file://$PROJECT_DIR$/modeling/gen_context_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/validating_prediction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/data/model/model_config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/timeseries_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="6419" selection-start-line="6419" selection-end-line="6419" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/model/utah_data_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/postgres_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/learning_lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="568">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zzz_others/similarity_computation.py">
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/data_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/geo_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="53" column="81" selection-start-line="53" selection-start-column="81" selection-end-line="53" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/air_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="40" column="29" selection-start-line="40" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/location_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeling/gen_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1268" selection-start-line="1268" selection-end-line="1268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/services/interpolation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_preparation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing/data_model/met_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

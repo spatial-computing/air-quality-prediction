@@ -3,6 +3,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import preprocessing
 
+import numpy as np
 
 class StandardScaler2:
     """
@@ -41,3 +42,14 @@ def random_forest_regressor(x, y, x_testing, n_estimators=100, max_depth=10):
     regr = RandomForestRegressor(n_estimators=n_estimators, max_depth=max_depth)
     regr.fit(x, y)
     return regr.predict(x_testing)
+
+
+def norm_to_zero_one(x):
+    # Cannot handle missing values
+    # min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 1)).fit(df)
+    # min_max_scaler.transform(df)
+
+    scaled_max, scaled_min = 1, 0
+    x_std = (x - np.nanmin(x, axis=0)) / (np.nanmax(x, axis=0) - np.nanmin(x, axis=0))
+    x_scaled = x_std * (scaled_max - scaled_min) + scaled_min
+    return x_scaled
